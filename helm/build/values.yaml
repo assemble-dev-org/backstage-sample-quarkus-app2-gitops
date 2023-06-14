@@ -1,0 +1,16 @@
+app:
+  name: my-quarkus-app2
+  namespace: my-quarkus-app2-dev
+  cluster: .apps.cluster-hx87f.hx87f.sandbox3154.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/assemble-dev-org/backstage-sample-quarkus-app2
+  org: assemble-dev-org
+  name: backstage-sample-quarkus-app2
+
+image:
+  registry: Openshift
+  organization: 
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app2
